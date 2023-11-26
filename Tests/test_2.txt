@@ -1,0 +1,20 @@
+Imports System.Windows.Forms
+
+Module Module1
+    Sub Main()
+        ' Creating a window object
+        Dim form As New Form()
+
+        ' Creating a Label control
+        Dim label As New Label()
+        label.Text = "Hello, world!"
+        label.AutoSize = True
+        label.Location = New System.Drawing.Point(50, 50)
+
+        ' Adding the Label control to the window
+        form.Controls.Add(label)
+
+        ' Running the window
+        Application.Run(form)
+    End Sub
+End Module

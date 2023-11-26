@@ -1,0 +1,210 @@
+Comment:   ' Numbers
+Comment:   ' decimal
+Identifier:   m
+Operator:   =
+Number:   0
+Identifier:   m
+Operator:   =
+Number:   -12
+Identifier:   m
+Operator:   =
+Number:   +0
+Comment:   ' hex
+Identifier:   m
+Operator:   =
+HexNumber:   0x10F
+Identifier:   m
+Operator:   =
+HexNumber:   0x10FA32
+Comment:   ' float
+Keyword:   Dim
+Identifier:   f
+Keyword:   As
+Keyword:   Float
+Identifier:   f
+Operator:   =
+Number:   +12.345
+Identifier:   f
+Operator:   =
+Number:   -0.0051
+Identifier:   f
+Operator:   =
+Number:   12.4e0
+Identifier:   f
+Operator:   =
+Number:   314E-2
+Comment:   ' Strings
+String:   "some string"
+String:   " some ""cool"" string"
+Keyword:   Dim
+Identifier:   s
+Keyword:   As
+Keyword:   String
+Identifier:   a
+Operator:   =
+String:   "hi"
+Comment:   ' Preprocessor directives
+Directive:   #ExternalSource
+Delimiter:   (
+Identifier:   StringLiteral
+Delimiter:   ,
+Identifier:   IntLiteral
+Delimiter:   )
+Delimiter:   [
+Identifier:   LogicalLine
+Operator:   +
+Delimiter:   ]
+Directive:   #End ExternalSource
+Directive:   #Disable Warning BC42356
+Identifier:   Async
+Keyword:   Function
+Identifier:   TestAsync
+Delimiter:   (
+Delimiter:   )
+Keyword:   As
+Identifier:   Task
+Identifier:   Console
+Delimiter:   .
+Identifier:   WriteLine
+Delimiter:   (
+String:   "testing"
+Delimiter:   )
+Keyword:   End
+Keyword:   Function
+Directive:   #Enable Warning BC42356
+Directive:   #If expression Then
+   statements
+#ElseIf expression Then
+   [ statements ]
+    ...
+#ElseIf expression Then
+   [ statements ]
+#Else
+   [ statements ]
+#End If
+Comment:   ' Comments
+Keyword:   Public
+Keyword:   Class
+Identifier:   Hello
+Comment:   ' Define the class
+Keyword:   Public
+Keyword:   Shared
+Keyword:   Sub
+Identifier:   Main
+Delimiter:   (
+Delimiter:   )
+Comment:   ' Define the method
+Identifier:   Console
+Delimiter:   .
+Identifier:   WriteLine
+Delimiter:   (
+String:   "hello, world"
+Delimiter:   )
+Comment:   'Do magic
+Keyword:   End
+Keyword:   Sub
+Keyword:   End
+Keyword:   Class
+Comment:   '   "end" the definitions...
+Comment:   ' Reserved Words
+Comment:   ' just some of them...
+Keyword:   Let
+Keyword:   IsNot
+Comment:   ' not just a keyword, but an operator
+Keyword:   Lib
+Keyword:   Like
+Comment:   ' not just a keyword, but an operator
+Keyword:   Long
+Keyword:   Loop
+Keyword:   Me
+Keyword:   Mod
+Keyword:   Module
+Keyword:   MustInherit
+Keyword:   MustOverride
+Keyword:   MyBase
+Keyword:   MyClass
+Keyword:   Namespace
+Keyword:   Public
+Comment:   ' Operators
+Identifier:   m
+Operator:   =
+Identifier:   m
+Identifier:   m
+Operator:   >>
+Identifier:   m
+Identifier:   m
+Operator:   /
+Identifier:   m
+Identifier:   m
+Operator:   <>
+Identifier:   m
+Keyword:   Xor
+Identifier:   f
+Operator:   =
+Number:   0.0
+Comment:   ' Delimiters
+Identifier:   m
+Operator:   =
+Number:   0
+Delimiter:   _
+Comment:   ' delimiter _ here (line continuation)
+Operator:   +
+Number:   12
+Operator:   +
+Number:   14
+Operator:   +
+Number:   8
+Delimiter:   _
+Operator:   -
+Number:   5
+Operator:   -
+Number:   2
+Identifier:   o1
+Delimiter:   .
+Identifier:   MyFoo
+Delimiter:   (
+Number:   3.14
+Delimiter:   )
+Identifier:   ClientSize
+Operator:   =
+Keyword:   New
+Identifier:   Size
+Delimiter:   (
+Number:   466
+Delimiter:   ,
+Number:   127
+Delimiter:   )
+Comment:   ' Identifiers
+Keyword:   Imports
+Identifier:   System
+Comment:   ' module identifier
+Keyword:   Namespace
+Identifier:   ORelly
+Delimiter:   .
+Identifier:   ProgVBNet
+Comment:   ' namespace identifier
+Keyword:   Public
+Keyword:   Class
+Identifier:   Hello
+Comment:   ' class identifier
+Keyword:   Public
+Keyword:   Shared
+Keyword:   Sub
+Identifier:   SayHello
+Delimiter:   (
+Delimiter:   )
+Comment:   ' method identifier
+Identifier:   Console
+Delimiter:   .
+Identifier:   WriteLine
+Delimiter:   (
+String:   "hello, world"
+Delimiter:   )
+Comment:   ' object & method identifier
+Keyword:   End
+Keyword:   Sub
+Keyword:   End
+Keyword:   Class
+Keyword:   End
+Keyword:   Namespace
+Uncategorized: невизначений текст

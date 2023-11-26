@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1701010837 source:c:\users\nata\documents\програмування\sp_lab3\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<cstdlib>
+	<exception>
+	<regex>
+	<iostream>
+	<fstream>
+	<string>
+	<cstring>
+	<regex>
+	<vector>
+
